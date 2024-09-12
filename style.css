@@ -1,0 +1,177 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+
+nav {
+    background-color: #000;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+}
+
+nav > h1 {
+    text-shadow: 5px 5px 20px whitesmoke;
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 140px 0 20px 0;
+    
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #f5f5f5;
+    box-shadow: 2px 2px 10px lightgray;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card > h2 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.card > h2:hover {
+    text-decoration: underline;
+}
+
+.card > p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #2c2c2c;
+}
+
+a {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+a:hover {
+    color: lightcoral;
+}
+
+.article-meta {
+    color: #666666;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.copy-right {
+    color: #666666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Modal CSS */
+.modal {
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #2c2c2c;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px gray;
+
+}
+
+.modal-close-btn {
+    display: flex;
+    justify-content: end;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 1.5rem;
+}
+
+.modal-close-btn:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.modal-inner > h2 {
+    margin-top: 10px;
+}
+
+.modal-text {
+    line-height: 1.4;
+    font-size: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 4px;
+}
+
+input::placeholder {
+    font-size: 1rem;
+}
+
+button {
+    font-size: 1rem;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+.btn-area {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-display-text {
+    color: fuchsia;
+}
+
+.hacker-img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
